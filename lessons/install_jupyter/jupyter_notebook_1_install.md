@@ -26,11 +26,12 @@ $ jupyter notebook
 ```
 >my example
 ```console
-reshama$ jupyter notebook
-[I 11:41:22.769 NotebookApp] Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
-[I 11:41:22.769 NotebookApp] 0 active kernels 
-[I 11:41:22.769 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
-[I 11:41:22.769 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(base) MacBook-Pro-4:~ abdullahhanif$ jupyter notebook
+[I 20:43:47.282 NotebookApp] Serving notebooks from local directory: /Users/abdullahhanif
+[I 20:43:47.282 NotebookApp] The Jupyter Notebook is running at:
+[I 20:43:47.282 NotebookApp] http://localhost:8888/?token=db691e2b0e7ebf588194e4fb47da9084f591fcfd2e78552a
+[I 20:43:47.282 NotebookApp]  or http://127.0.0.1:8888/?token=db691e2b0e7ebf588194e4fb47da9084f591fcfd2e78552a
+[I 20:43:47.282 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
 ### Shut Down the Juypter Notebook App
@@ -40,14 +41,15 @@ At terminal prompt:
  
 >my example 
 ```console
-^C[I 11:43:35.486 NotebookApp] interrupted
-Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
-0 active kernels 
-The Jupyter Notebook is running at: http://localhost:8888/
+^C[I 20:45:41.988 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/abdullahhanif
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=db691e2b0e7ebf588194e4fb47da9084f591fcfd2e78552a
+ or http://127.0.0.1:8888/?token=db691e2b0e7ebf588194e4fb47da9084f591fcfd2e78552a
 Shutdown this notebook server (y/[n])? y
-[C 11:43:37.782 NotebookApp] Shutdown confirmed
-[I 11:43:37.783 NotebookApp] Shutting down kernels
-reshama$ 
+[C 20:45:44.356 NotebookApp] Shutdown confirmed
+[I 20:45:44.365 NotebookApp] Shutting down 0 kernels
 ```
 
 ---
