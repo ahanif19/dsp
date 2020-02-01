@@ -47,7 +47,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
-I installed Python 3 because I read that Python 2 was sunset as of January 1, 2020.
+**I installed Python 3 because I read that Python 2 was sunset as of January 1, 2020.**
 
 ### Q2. Which Python Version Installed   
 
@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
-Python 3.7.5
+**Python 3.7.5**
 
  
 
