@@ -50,6 +50,7 @@ http://localhost:8888/?token=db691e2b0e7ebf588194e4fb47da9084f591fcfd2e78552a
 Shutdown this notebook server (y/[n])? y
 [C 20:45:44.356 NotebookApp] Shutdown confirmed
 [I 20:45:44.365 NotebookApp] Shutting down 0 kernels
+(base) MacBook-Pro-4:~ abdullahhanif$ 
 ```
 
 ---
