@@ -1,5 +1,9 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
+In this exercise, we construct a probability mass function (PMF) for the number of children in a household using two different approaches. The purpose is to demonstrate the <b>class size paradox</b>.
+
+Using the Think Stats functions to construct both a biased and unbiased PMF, we see that the true distribution will differ from the distribution we get by sampling. The reason for this is that the people we sample are inherently more likely to be in larger households than smaller households which skews the distributions and the mean upward.
+
 ```python
 # Actual distribution
 kid_pmf = thinkstats2.Pmf(resp['numkdhh'],label='actual')
