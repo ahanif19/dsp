@@ -1,6 +1,6 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
-In this exercise, we are asked to compute the percentage of the US male population that is eligible to be in the Blue Man Group (i.e. their height is >= 5'10" and <= 6'1"). To do this, I first converted the heights into centimeters, then substracted the cdf for the minimum height requirement from the cdf of the maximum height requirement.
+In this exercise, we are asked to compute the percentage of the US male population that is eligible to be in the Blue Man Group (i.e. their height is >= 5'10" and <= 6'1"). To do this, I first converted the heights into centimeters, then subtracted the cdf for the minimum height requirement from the cdf of the maximum height requirement.
 
 ```python
 
