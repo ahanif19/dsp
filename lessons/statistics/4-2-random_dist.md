@@ -1,5 +1,10 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
+In this exercise, we are asked to generate 1,000 numbers between 0 and 1 using one of Numpy's random sampling functions.
+
+Once we've done this, we plot the probability mass function (PMF) and the cumulative distribution function (CDF) and examine the plots to determine whether the random numbers are uniformly distributed.
+
+To complete the task, I used the Think Stats function to plot a PDF and a CDF. 
 
 ```python
 
