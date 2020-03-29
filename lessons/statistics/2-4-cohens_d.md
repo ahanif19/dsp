@@ -1,3 +1,13 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+```python
+CohenEffectSize(firsts.prglngth,others.prglngth)
+```
+
+* The pregnancy length for first-born children is approximately <b>0.0288σ</b>  greater than the pregnancy length for children that are not the first born.
+
+```python
+CohenEffectSize(firsts['totalwgt_lb'],others['totalwgt_lb'])
+```
+
+* First born children's weight is typically <b>0.0887σ</b> lower than the non-first born children's weight.
