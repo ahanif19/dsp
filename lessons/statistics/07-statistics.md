@@ -86,14 +86,30 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The probability of having a fraternal twin is:
+
+*P(FT) = 1/125*
+
+The probability of having an identical twin is:
+
+*P(IT) = 1/300*
+
+The probability of having a twin brother is:
+
+*P(TB) = (1/2)(1/125) + (1)(1/300) = 11/1500*
+
+This is because fraternal twins can be of different genders but identical twins must be the same gender.
+
+*P(IT|TB) = P(IT & TB)/P(TB) = (1/300)/(11/1500) = 1/(11/5) = 5/11 = <b>0.454</b>*
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentist statistics involve applying probabilities to our data (or observations). For example, if we flip a coin 10 times and get 9 heads, we might assume the coin is biased. To try and get confirmation, a frequentist would calculate the probability of this happening with a fair coin and that would help form their opinion. Since it is very improbable to see such an outcome for a fair coin, a frequentist would reasonably conclude the coin is biased.
+
+By constrast, Bayesian statistics try to assess the likelihood of our hypothesis directly. In the coin flipping example, this would mean calculating the probability that the coin is biased. To do this type of calculation, Bayesian frameworks incorporate not only the observations or sample data but also prior assumptions about the probability that the coin is biased.
 
 ---
 
